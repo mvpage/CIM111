@@ -1,23 +1,76 @@
   #email {
-  text-decoration: none;
-  }
+  text-decoration: none;}
 
-  #twitter {
+a {
   text-decoration: none;
-  }
 
-  #img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
 }
+
+
+a:visited{
+  text-decoration:none;
+  color:#B22222;
+
+}
+
+a:hover{
+  text-decoration:none;
+  color:#A9A9A9;
+
+}
+
 
 html, body {
 
-
-
-  background-color: ivory;
+  background-color: white;
   color: black;
-  font-family:'Source Serif Pro', serif;
+  font-family:'Source Serif Pro', serif; }
+
+  section#image_address {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+
+    .image_address {
+  color: grey;
 }
+
+}
+
+
+
+
+  #name {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    font-size: 40px;
+
+  }
+
+#About_Me {
+  font-weight: lighter;
+}
+
+#Education{
+  font-weight: normal;
+}
+
+#Leadership{
+  font-weight: normal;
+}
+
+#Hobbies{
+  font-weight: normal;
+}
+
+  section#contact_social {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+.crosshair { cursor: crosshair; }
