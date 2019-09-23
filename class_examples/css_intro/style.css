@@ -1,0 +1,43 @@
+html{
+  /* please dont use black backgrounds */
+  background-color:#556b2f;
+  color: white;
+}
+
+/* select the section with id="cenetered" */
+section#centered, #centered {
+    /* set the width of this selection to be 600 */
+    width: 600px;
+    /* set the margin to be on 0 on the top and bottom, and auto on left and right */
+    margin: 0 auto;
+    /*this means the same as above*/
+   /* margin" 0 auto 0 auto;*/
+  /*this means the same as the previous two ways of setting margin*/
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto
+
+    margin: 0 auto 0 auto;
+    border: 5px solid #f9423a;
+    margin 10x; /* first two are top and bottom second is left and right */
+    /* set the border to be 1 px of solid Pantone Warm Red C */
+    border: 1px solid blue;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 150%;
+    color: #yellow;
+    background-color: black;
+    font-weight: 100;
+}
+
+strong, b {
+    font-weight: 900;
+}

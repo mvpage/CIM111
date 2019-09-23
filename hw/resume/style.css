@@ -1,0 +1,23 @@
+  #email {
+  text-decoration: none;
+  }
+
+  #twitter {
+  text-decoration: none;
+  }
+
+  #img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+html, body {
+
+
+
+  background-color: ivory;
+  color: black;
+  font-family:'Source Serif Pro', serif;
+}
