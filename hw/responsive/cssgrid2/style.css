@@ -1,0 +1,440 @@
+html, body {
+
+  background-color:#CDBAA7;
+  color: white;
+  font-family: 'Playfair Display', serif; }
+
+h3 {
+  font-size: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+  text-align: center;
+  /* margin-left: auto;
+  margin-right: auto;
+
+  margin: 40px auto 0 auto; */
+  /* margin: 0 auto;
+  margin: auto; */
+}
+.Cafes {
+  display: grid;
+  grid-template-columns: 1fr  100px 1fr;
+  grid-gap: 10px;
+  /* grid-auto-rows: 100px; */
+  grid-template-areas:
+    "a . b"
+    "c . d";
+  align-items: start;
+}
+
+.smalltea {
+  grid-area: a;
+  display: grid;
+  grid-gap: inherit;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+  grid-template-areas:
+    "smalltea-title ."
+    "smalltea-pic smalltea-info";
+}
+
+.smalltea-pic{
+  height: 170px;
+  width: 100%;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  grid-area: smalltea-pic;
+}
+
+.smalltea-info {
+  grid-area: smalltea-info;
+}
+
+.smalltea-title {
+  grid-area: smalltea-title;
+}
+
+.category-info {
+  width: 400px;
+}
+
+.booksnbooks {
+  grid-area: b;
+  display: grid;
+  grid-gap: inherit;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+  grid-template-areas:
+    "bnb-title ."
+    "bnb-pic bnb-info";
+}
+
+.bnb-pic {
+height: 170px;
+width: 100%;
+border: 1px solid #000080;
+border-radius: 4px;
+grid-area: bnb-pic;
+}
+
+
+.bnb-info {
+  grid-area: bnb-info;
+}
+
+.bnb-title {
+  grid-area: bnb-title;
+}
+
+.category-info {
+  width: 400px;
+}
+
+
+
+.HoP {
+  grid-area: c;
+  display: grid;
+  grid-gap: inherit;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+  grid-template-areas:
+    "HoP-title ."
+    "HoP-pic HoP-info";
+}
+
+.HoP-pic {
+height: 170px;
+width: 220px;
+border: 1px solid #000080;
+border-radius: 4px;
+grid-area: HoP-pic;
+}
+
+.HoP-info {
+  grid-area: HoP-info;
+}
+
+.HoP-title {
+  grid-area: HoP-title;
+}
+
+.category-info {
+  width: 400px;
+}
+
+
+.CafeDem {
+  grid-area: d;
+  display: grid;
+  grid-gap: inherit;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+  grid-template-areas:
+    "CafeDem-title ."
+    "CafeDem-pic CafeDem-info";
+}
+
+.CafeDem-pic {
+  height: 170px;
+  width: 220px;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  grid-area: CafeDem-pic;
+}
+
+.CafeDem-info {
+  grid-area: CafeDem-info;
+}
+
+.CafeDem-title {
+  grid-area: CafeDem-title;
+}
+
+.category-info {
+  width: 400px;
+}
+
+
+
+.header {
+  text-align:center;
+  font-size: 25px;
+}
+
+.italics {
+  font-size: 20px;
+}
+
+#cafe {
+  text-align:center;
+}
+
+#Museums {
+  text-align:center;
+}
+
+#ParksnBeaches{
+  text-align:center;
+}
+
+
+/* Museum grid */
+
+.Museums {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+  grid-gap: 10px;
+  grid-template-areas:
+    "e . f"
+    "g . h";
+  align-items: start;
+}
+.ICA {
+  grid-area: e;
+  display: grid;
+  grid-gap: inherit;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+  grid-template-areas:
+    "ICA-title ."
+    "ICA-pic ICA-info";
+}
+
+.ICA-pic {
+  height: 170px;
+  width: 220px;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  grid-area: ICA-pic;
+}
+
+.ICA-info {
+  grid-area: ICA-info;
+}
+
+.ICA-title {
+  grid-area: ICA-title;
+}
+
+.category-info {
+  width: 400px;
+}
+
+
+.LoweArtMuseum {
+  grid-area: f;
+  display: grid;
+  grid-gap: inherit;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+  grid-template-areas:
+    "Lowe-title ."
+    "Lowe-pic Lowe-info";
+}
+
+.Lowe-info {
+  grid-area: Lowe-info;
+}
+
+.Lowe-title {
+  grid-area: Lowe-title;
+}
+
+.category-info {
+  width: 400px;
+}
+
+
+.CoralGablesMuseum {
+  grid-area: g;
+  display: grid;
+  grid-gap: inherit;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+  grid-template-areas:
+    "CGMuseum-title ."
+    "CGMuseum-pic CGMuseum-info";
+}
+
+.CGMuseum-info {
+  grid-area: CGMuseum-info;
+}
+
+.CGMuseum-title {
+  grid-area: CGMuseum-title;
+}
+
+.category-info {
+  width: 400px;
+}
+
+
+.PAM {
+  grid-area: h;
+  display: grid;
+  grid-gap: inherit;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+  grid-template-areas:
+    "PAM-title ."
+    "PAM-pic PAM-info";
+}
+
+.PAM-info {
+  grid-area: PAM-info;
+}
+
+.PAM-title {
+  grid-area: PAM-title;
+}
+
+.category-info {
+  width: 400px;
+}
+
+
+.ICA-pic{
+  height: 170px;
+  width: 220px;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  grid-area:ICA-pic;
+}
+
+.Lowe-pic{
+  height: 170px;
+  width: 220px;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  grid-area:Lowe-pic;
+}
+
+.CGMuseum-pic{
+  height: 170px;
+  width: 220px;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  grid-area:CGMuseum-pic;
+}
+
+.PAM-pic{
+  height: 170px;
+  width: 220px;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  grid-area:PAM-pic;
+}
+
+
+
+.ParksnBeaches {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-areas:
+  "i j"
+  "k l";
+  align-items: start;
+}
+.HammockPark {
+  grid-area: i;
+  display: grid;
+  grid-gap: inherit;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+  grid-template-areas:
+    "HammockPark-title ."
+    "HammockPark-pic HammockPark-info"
+}
+
+.HammockPark-info {
+  grid-area: HammockPark-info;
+}
+
+.HammockPark-title {
+  grid-area: HammockPark-title;
+}
+
+.category-info {
+  width: 400px;
+}
+.BotanicGarden {
+  grid-area: j;
+  display: grid;
+  grid-gap: inherit;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+  grid-template-areas:
+    "BotanicGarden-title ."
+    "botanicgarden-pic botanicgarden-info"
+}
+.botanicgarden-info {
+  grid-area: botanicgarden-info;
+}
+
+.BotanicGarden-title {
+  grid-area: BotanicGarden-title;
+}
+
+.category-info {
+  width: 400px;
+}
+
+.PeacockPark {
+  grid-area: k;
+  display: grid;
+  grid-gap: inherit;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+  grid-template-areas:
+    "PeacockPark-title ."
+    "peacockpark-pic peacockpark-pic"
+}
+.PeacockPark-info {
+  grid-area: PeacockPark-info;
+}
+
+.PeacockPark-title {
+  grid-area: PeacockPark-title;
+}
+
+.category-info {
+  width: 400px;
+}
+
+.VenetianPool {
+  grid-area: l;
+  display: grid;
+  grid-gap: inherit;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+  grid-template-areas:
+    "VenetianPool-title ."
+    "pool-pic VenetianPool-info";
+}
+
+.HammockPark-pic{
+  height: 170px;
+  width: 220px;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  grid-area:HammockPark-pic;
+}
+
+.botanicgarden-pic{
+  height: 170px;
+  width: 220px;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  grid-area:botanicgarden-pic;
+}
+
+.peacockpark-pic{
+  height: 170px;
+  width: 220px;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  grid-area:peacockpark-pic;
+}
+
+.pool-pic{
+  height: 170px;
+  width: 220px;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  grid-area:pool-pic;
+}
+
+
+/* put this in mobile.css */

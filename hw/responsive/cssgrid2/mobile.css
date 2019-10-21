@@ -1,0 +1,111 @@
+@media only screen and (max-width: 767px) {
+  .VenetianPool {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "VenetianPool-title"
+    "pool-pic"
+    "VenetianPool-info";
+  }
+
+.smalltea {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "smalltea-title"
+  "smalltea-pic"
+  "smalltea-info";
+}
+
+.booksnbooks {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "bnb-title"
+  "bnb-pic"
+  "bnb-info";
+
+
+}
+
+.HoP {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "HoP-title"
+  "HoP-pic"
+  "HoP-info";
+}
+
+.CafeDem{
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "CafeDem-title"
+  "CafeDem-pic"
+  "CafeDem-info";
+
+}
+
+.ICA{
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "ICA-title"
+  "ICA-pic"
+  "ICA-info";
+
+
+}
+
+.LoweArtMuseum{
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "Lowe-title"
+  "Lowe-pic"
+  "Lowe-info";
+
+}
+
+.CoralGablesMuseum{
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "CGMuseum-title"
+  "CGMuseum-pic"
+  "CGMuseum-info";
+}
+
+.PAM {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "PAM-title"
+  "PAM-pic"
+  "PAM-info";
+}
+
+
+  .HammockPark {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "HammockPark-title"
+    "HammockPark-pic"
+    "HammockPark-info";
+  }
+
+  .BotanicGarden{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "BotanicGarden-title"
+    "botanicgarden-pic"
+    "botanicgarden-info";
+  }
+
+  .PeacockPark{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "PeacockPark-title"
+    "peacockpark-pic"
+    "peacockpark-pic";
+
+  }
+
+
+}
+
+
+
+}

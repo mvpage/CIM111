@@ -1,0 +1,100 @@
+nav a {
+  display: inline-block;
+}
+/* dot is selectig a class  */
+
+
+
+
+
+.smalltea-container{
+  display:grid;
+  grid-template-areas:
+    "smalltea-heading ."
+    "smalltea-pic description";
+  grid-gap:1px;
+  max-width:400px;
+
+
+}
+
+.smallteaheading {
+    grid-area: smalltea-heading;
+}
+
+.smalltea-pic{
+  grid-area: smalltea-pic;
+  height: 170px;
+}
+
+.description{
+  grid-area: description;
+  font-size: 20px;
+}
+
+.booksnbooks-container {
+  display:grid;
+  grid-template-areas:
+    "booksnbooksheading ."
+    "booksnbooks-pic description";
+  grid-gap: 1px;
+  max-width:400px;
+}
+
+.booksnbooksheading {
+    grid-area:booksnbooksheading;
+}
+
+.booknbooks-pic{
+  grid-area: smalltea-pic;
+  height: 170px;
+}
+
+.description {
+  grid-area: description;
+  font-size: 20px;
+}
+
+.cafe {
+    display: grid;
+    grid-template-areas:
+         ".smalltea-container . booksnbooks-container";
+          /* every space means a column every quote means a row */
+         /* "yellow yellow ." */
+        grid-gap: 20px; /* this puts a gap between the video */
+        grid-row-gap: 10px;
+    grid-gap: 1.4rem;
+
+
+
+
+
+
+
+
+
+html {
+  font-size: 20px;
+  line-height: 1.7;
+  font-family: sans-serif;
+  background-color:#E6C8C2;
+}
+
+
+
+body{
+font-size: 1 rem;
+}
+
+
+
+
+.grid_container {
+    display: grid;
+    grid-template-areas:
+         "smalltea . cafegrumpy";
+
+        grid-gap: 20px;
+        grid-row-gap: 10px;
+    grid-gap: 1.4rem;
+}
