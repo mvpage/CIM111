@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title> Megan's Famous Creamy Pesto </title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Jomolhari|Petit+Formal+Script|Playfair+Display+SC&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+		<section id="titleandpic">
+			<h1 id="title"> Megan's<br> Famous </h1>
+			<h2 id="cursive"> Creamy<br>Pesto Pasta</h2>
+			<img id="img" src="images/pictureheader.jpg" alt="pasta" width=250>
+		</section>
+		<section id="paragraph">
+			<p class="intro">A simple recipe for busy people craving a delicious home-cooked meal. Make Megan's famous creamy pesto pasta in less than 25 minutes. <br> Recipe to serve one person. </p>
+		</section>
+		<hr>
+		<nav>
+			<a href="#shoppinglist" id="Ingredients">Ingredients</a>
+			<a href="#my_steps" id="Instructions">Instructions</a>
+		</nav>
+	</header>
+	<main>
+
+
+
+		<section id="shoppinglist">
+			<p> To make the creamy pesto, you will need the following ingredients</p>
+			<ul style="list-style-type:square;">
+				<li> Trader Joe's Basil Pesto <img id="img" src="images/pestosauce.jpg" alt="pasta" width=80></li>
+				<li> Heavy cream </li>
+				<li> Parmesean cheese </li>
+				<li> Garlic salt <img id="img" src="images/garlicsalt.jpg" alt="pasta" width=80> </li>
+				<li> Yellow onion </li>
+				<li> Any type of pasta (preferrably speghetti) </li>
+				<li> Salt </li>
+				<li> Black pepper </li>
+			</ul>
+
+			<p> *Optional* </p>
+			<ul>
+				<li> Red pepper flakes </li>
+				<li> Diced ham or prosciutto </li>
+				<li> Grilled chicken </li>
+				<li> Grilled or baked salmon </li>
+			</ul>
+		</section>
+
+		<section class="my_steps">
+			<ol>
+				<li> <u>Boil your Pasta:</u> Turn your stove up to high heat and boil some water to completly submerg the pasta. To add flavor and shorten boiling time, add salt. Once the water has boiled, add your pasta.
+					*Make sure to check the cook time on the packaging* </li>
+				<li> <u>Sautee Your Onions:</u> Heat up a skillet on medium-high heat with 3 tablespoons of olive oil. Once hot, dice half of a yellow onion and sautee until translucent. </li>
+				<li> <u>Add Your Protein:</u> If you have any meat that you would like to add, fry it in with the onions. Otherwise, skip this step.</li>
+				<li> <u>Add The Seasoning:</u> On top of the onions, add a few shakes of garlic salt and a dash of black pepper. </li>
+				<li><u>Add The Cream:</u> Depending on how thick you want your sauce, add a generous amount of heavy cream to the sauteed mix. For more sauce, add more cream. </li>
+				<li><u>Add Your Pesto:</u>At this point, the cream should be a light tint of brown, depending on how strong you want the pesto flavor to be add more or less than 2 tablespoons of pesto to the pan.
+				<li><u>Add Parmesean Cheese:</u> Be Generous!! Make it as cheesy as you'd like. Fold the cheese into the sauce to prevent it from coagulating. </li>
+				<li><u>Add Your Pasta:</u> Once the pasta is al dente, drain your pasta, keeping a few tablespoons of starchy water still in the pot, and pour into the sauce pan. Fold the sauce into the pasta.</li>
+				<img id="img" src="images/mixingpasta.jpg" alt="pasta" width=200>
+				<li> <u>Spice it up:</u> At this point, you can add some red pepper flakes for a lil' kick. </li>
+
+			</ol>
+			<p> And <em> Voila! </em> You're done! Enjoy your meal. </p>
+			<img id="img" src="images/chefskiss.jpg" alt="pasta" width=300>
+		</section>
+
+
+
+	</main>
+
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#shoppinglist").hide();
+			$(".my_steps").hide();
+
+		});
+
+		$("#Ingredients").click(function() {
+			// $("#shoppinglist").show();
+			$("#shoppinglist").toggle();
+		});
+
+		$("#Instructions").click(function() {
+			// $(".my_steps").show();
+			$(".my_steps").toggle();
+		});
+
+		$("a").css("color", "8b0000");
+
+		$(".intro").mouseover(function() {
+			$(".intro").html("LET'S GET COOKIN!");
+		});
+
+	</script>
+</body>
+
+</html>

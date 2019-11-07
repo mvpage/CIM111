@@ -1,0 +1,49 @@
+#title {
+  font-family: "Playfair Display SC", serif;
+}
+
+#cursive {
+  font-family: "Petit Formal Script", cursive;
+}
+
+#paragraph {
+  font-family: "Jomolhari", serif;
+}
+
+#img {
+  border: 1px solid #000080;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#titleandpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 302px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #b22222;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #a9a9a9;
+}
+nav {
+  margin-left: 20px;
+}
+
+.my_steps {
+  font-family: "Jomolhari", serif;
+}
+
+a {
+  display: block;
+  background-color: #ffffed;
+}
