@@ -1,9 +1,25 @@
+#titleandpic {
+  display: grid;
+  grid-template-areas:
+    "photo . famous"
+    "photo . pasta";
+  align-items: start;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
 #title {
+  grid-area: famous;
+  /* display: grid;
+  grid-gap: inherit; */
   font-family: "Playfair Display SC", serif;
 }
 
 #cursive {
-  font-family: "Petit Formal Script", cursive;
+  grid-area: pasta;
+  /* display: grid; */
+  /* grid-gap inherit;
+  font-family: "Petit Formal Script", cursive; */
 }
 
 #paragraph {
@@ -11,6 +27,10 @@
 }
 
 #img {
+  grid-area: photo;
+  /* display: grid;
+  grid-gap: inherit;
+  grid-template-columns: 225px 200px; */
   border: 1px solid #000080;
   border-radius: 4px;
 }

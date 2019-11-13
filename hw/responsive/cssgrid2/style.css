@@ -1,8 +1,9 @@
-html, body {
-
-  background-color:#CDBAA7;
+html,
+body {
+  background-color: #cdbaa7;
   color: white;
-  font-family: 'Playfair Display', serif; }
+  font-family: "Playfair Display", serif;
+}
 
 h3 {
   font-size: 20px;
@@ -20,7 +21,7 @@ h2 {
 }
 .Cafes {
   display: grid;
-  grid-template-columns: 1fr  100px 1fr;
+  grid-template-columns: 1fr 100px 1fr;
   grid-gap: 10px;
   /* grid-auto-rows: 100px; */
   grid-template-areas:
@@ -39,7 +40,7 @@ h2 {
     "smalltea-pic smalltea-info";
 }
 
-.smalltea-pic{
+.smalltea-pic {
   height: 170px;
   width: 100%;
   border: 1px solid #000080;
@@ -70,13 +71,12 @@ h2 {
 }
 
 .bnb-pic {
-height: 170px;
-width: 100%;
-border: 1px solid #000080;
-border-radius: 4px;
-grid-area: bnb-pic;
+  height: 170px;
+  width: 100%;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  grid-area: bnb-pic;
 }
-
 
 .bnb-info {
   grid-area: bnb-info;
@@ -90,8 +90,6 @@ grid-area: bnb-pic;
   width: 400px;
 }
 
-
-
 .HoP {
   grid-area: c;
   display: grid;
@@ -103,11 +101,11 @@ grid-area: bnb-pic;
 }
 
 .HoP-pic {
-height: 170px;
-width: 220px;
-border: 1px solid #000080;
-border-radius: 4px;
-grid-area: HoP-pic;
+  height: 170px;
+  width: 220px;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  grid-area: HoP-pic;
 }
 
 .HoP-info {
@@ -121,7 +119,6 @@ grid-area: HoP-pic;
 .category-info {
   width: 400px;
 }
-
 
 .CafeDem {
   grid-area: d;
@@ -153,10 +150,8 @@ grid-area: HoP-pic;
   width: 400px;
 }
 
-
-
 .header {
-  text-align:center;
+  text-align: center;
   font-size: 25px;
 }
 
@@ -165,17 +160,16 @@ grid-area: HoP-pic;
 }
 
 #cafe {
-  text-align:center;
+  text-align: center;
 }
 
 #Museums {
-  text-align:center;
+  text-align: center;
 }
 
-#ParksnBeaches{
-  text-align:center;
+#ParksnBeaches {
+  text-align: center;
 }
-
 
 /* Museum grid */
 
@@ -218,7 +212,6 @@ grid-area: HoP-pic;
   width: 400px;
 }
 
-
 .LoweArtMuseum {
   grid-area: f;
   display: grid;
@@ -240,7 +233,6 @@ grid-area: HoP-pic;
 .category-info {
   width: 400px;
 }
-
 
 .CoralGablesMuseum {
   grid-area: g;
@@ -264,7 +256,6 @@ grid-area: HoP-pic;
   width: 400px;
 }
 
-
 .PAM {
   grid-area: h;
   display: grid;
@@ -287,48 +278,45 @@ grid-area: HoP-pic;
   width: 400px;
 }
 
-
-.ICA-pic{
+.ICA-pic {
   height: 170px;
   width: 220px;
   border: 1px solid #000080;
   border-radius: 4px;
-  grid-area:ICA-pic;
+  grid-area: ICA-pic;
 }
 
-.Lowe-pic{
+.Lowe-pic {
   height: 170px;
   width: 220px;
   border: 1px solid #000080;
   border-radius: 4px;
-  grid-area:Lowe-pic;
+  grid-area: Lowe-pic;
 }
 
-.CGMuseum-pic{
+.CGMuseum-pic {
   height: 170px;
   width: 220px;
   border: 1px solid #000080;
   border-radius: 4px;
-  grid-area:CGMuseum-pic;
+  grid-area: CGMuseum-pic;
 }
 
-.PAM-pic{
+.PAM-pic {
   height: 170px;
   width: 220px;
   border: 1px solid #000080;
   border-radius: 4px;
-  grid-area:PAM-pic;
+  grid-area: PAM-pic;
 }
-
-
 
 .ParksnBeaches {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   grid-template-areas:
-  "i j"
-  "k l";
+    "i j"
+    "k l";
   align-items: start;
 }
 .HammockPark {
@@ -338,7 +326,7 @@ grid-area: HoP-pic;
   grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
   grid-template-areas:
     "HammockPark-title ."
-    "HammockPark-pic HammockPark-info"
+    "HammockPark-pic HammockPark-info";
 }
 
 .HammockPark-info {
@@ -359,7 +347,7 @@ grid-area: HoP-pic;
   grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
   grid-template-areas:
     "BotanicGarden-title ."
-    "botanicgarden-pic botanicgarden-info"
+    "botanicgarden-pic botanicgarden-info";
 }
 .botanicgarden-info {
   grid-area: botanicgarden-info;
@@ -380,7 +368,7 @@ grid-area: HoP-pic;
   grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
   grid-template-areas:
     "PeacockPark-title ."
-    "peacockpark-pic peacockpark-pic"
+    "peacockpark-pic peacockpark-pic";
 }
 .PeacockPark-info {
   grid-area: PeacockPark-info;
@@ -404,37 +392,36 @@ grid-area: HoP-pic;
     "pool-pic VenetianPool-info";
 }
 
-.HammockPark-pic{
+.HammockPark-pic {
   height: 170px;
   width: 220px;
   border: 1px solid #000080;
   border-radius: 4px;
-  grid-area:HammockPark-pic;
+  grid-area: HammockPark-pic;
 }
 
-.botanicgarden-pic{
+.botanicgarden-pic {
   height: 170px;
   width: 220px;
   border: 1px solid #000080;
   border-radius: 4px;
-  grid-area:botanicgarden-pic;
+  grid-area: botanicgarden-pic;
 }
 
-.peacockpark-pic{
+.peacockpark-pic {
   height: 170px;
   width: 220px;
   border: 1px solid #000080;
   border-radius: 4px;
-  grid-area:peacockpark-pic;
+  grid-area: peacockpark-pic;
 }
 
-.pool-pic{
+.pool-pic {
   height: 170px;
   width: 220px;
   border: 1px solid #000080;
   border-radius: 4px;
-  grid-area:pool-pic;
+  grid-area: pool-pic;
 }
-
 
 /* put this in mobile.css */
