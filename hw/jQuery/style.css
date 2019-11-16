@@ -1,25 +1,17 @@
-#titleandpic {
-  display: grid;
-  grid-template-areas:
-    "photo . famous"
-    "photo . pasta";
-  align-items: start;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-}
-
 #title {
   grid-area: famous;
   /* display: grid;
   grid-gap: inherit; */
   font-family: "Playfair Display SC", serif;
+  font-size: 80px;
+  margin-top: -28px;
 }
 
 #cursive {
   grid-area: pasta;
   /* display: grid; */
-  /* grid-gap inherit;
-  font-family: "Petit Formal Script", cursive; */
+  /* grid-gap inherit; */
+  font-family: "Petit Formal Script", cursive;
 }
 
 #paragraph {
@@ -40,10 +32,18 @@ a {
 }
 
 #titleandpic {
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 302px;
+  width: 700px;
+  display: grid;
+  grid-template-rows: 200px 1fr;
+  grid-template-columns: 250px 300px;
+  grid-template-areas:
+    "photo famous"
+    "photo pasta";
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  align-items: start;
 }
 
 a:visited {

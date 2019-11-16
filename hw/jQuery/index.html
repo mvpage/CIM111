@@ -7,16 +7,27 @@
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Jomolhari|Petit+Formal+Script|Playfair+Display+SC&display=swap" rel="stylesheet">
 
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
 </head>
 
 <body>
 	<header>
-		<section id="titleandpic">
+		<section class="container" id="titleandpic">
 			<h1 id="title"> Megan's<br> Famous </h1>
-			<h2 id="cursive"> Creamy<br>Pesto Pasta</h2>
-			<img id="img" src="images/pictureheader.jpg" alt="pasta" width=250>
+			<h2 id="cursive"> Creamy<br>Pesto<br>Pasta</h2>
+			<!-- <img id="img" src="images/pictureheader.jpg" alt="pasta" width=250> -->
+			<a data-fancybox="gallery" href="images/pictureheader.jpg">
+				<img id="img" src="images/pictureheader.jpg" alt="pasta" width=250>
+			</a>
+
 		</section>
 		<section id="paragraph">
+			<br> <br>
 			<p class="intro">A simple recipe for busy people craving a delicious home-cooked meal. Make Megan's famous creamy pesto pasta in less than 25 minutes. <br> Recipe to serve one person. </p>
 		</section>
 		<hr>
@@ -32,10 +43,15 @@
 		<section id="shoppinglist">
 			<p> To make the creamy pesto, you will need the following ingredients</p>
 			<ul style="list-style-type:square;">
-				<li> Trader Joe's Basil Pesto <img src="images/pestosauce.jpg" alt="pasta" width=80></li>
+				<li> Trader Joe's Basil Pesto
+					<a data-fancybox href="images/pestosauce.jpg"> <img src="images/pestosauce.jpg" alt="pasta" width=80> </a>
+				</li>
 				<li> Heavy cream </li>
 				<li> Parmesean cheese </li>
-				<li> Garlic salt <img src="images/garlicsalt.jpg" alt="pasta" width=80> </li>
+				<li> Garlic salt
+					<a data-fancybox href="images/garlicsalt.jpg">
+						<img src="images/garlicsalt.jpg" alt="pasta" width=80> </a>
+				</li>
 				<li> Yellow onion </li>
 				<li> Any type of pasta (preferrably speghetti) </li>
 				<li> Salt </li>
@@ -63,13 +79,18 @@
 				<li><u>Add The Cream:</u> Depending on how thick you want your sauce, add a generous amount of heavy cream to the sauteed mix. For more sauce, add more cream. </li>
 				<li><u>Add Your Pesto:</u>At this point, the cream should be a light tint of brown, depending on how strong you want the pesto flavor to be add more or less than 2 tablespoons of pesto to the pan.
 				<li><u>Add Parmesean Cheese:</u> Be Generous!! Make it as cheesy as you'd like. Fold the cheese into the sauce to prevent it from coagulating. </li>
-				<li><u>Add Your Pasta:</u> Once the pasta is al dente, drain your pasta, keeping a few tablespoons of starchy water still in the pot, and pour into the sauce pan. Fold the sauce into the pasta. <img src="images/mixingpasta.jpg"
-					 alt="pasta" width=200></li>
+				<li><u>Add Your Pasta:</u> Once the pasta is al dente, drain your pasta, keeping a few tablespoons of starchy water still in the pot, and pour into the sauce pan. Fold the sauce into the pasta.
+					<a data-fancybox href="images/mixingpasta.jpg">
+						<img src="images/mixingpasta.jpg" alt="pasta" width=200>
+					</a>
+				</li>
 				<li> <u>Spice it up:</u> At this point, you can add some red pepper flakes for a lil' kick. </li>
 
 			</ol>
 			<p> And <em> Voila! </em> You're done! Enjoy your meal. </p>
-			<img src="images/chefskiss.jpg" alt="pasta" width=300>
+			<a data-fancybox href="images/chefskiss.jpg">
+				<img src="images/chefskiss.jpg" alt="pasta" width=300>
+			</a>
 		</section>
 
 
