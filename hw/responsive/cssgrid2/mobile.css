@@ -2,110 +2,96 @@
   .VenetianPool {
     grid-template-columns: 1fr;
     grid-template-areas:
-    "VenetianPool-title"
-    "pool-pic"
-    "VenetianPool-info";
+      "VenetianPool-title"
+      "pool-pic"
+      "VenetianPool-info";
   }
 
-.smalltea {
-  grid-template-columns: 1fr;
-  grid-template-areas:
-  "smalltea-title"
-  "smalltea-pic"
-  "smalltea-info";
-}
+  .smalltea {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "smalltea-title"
+      "smalltea-pic"
+      "smalltea-info";
+  }
 
-.booksnbooks {
-  grid-template-columns: 1fr;
-  grid-template-areas:
-  "bnb-title"
-  "bnb-pic"
-  "bnb-info";
+  .booksnbooks {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "bnb-title"
+      "bnb-pic"
+      "bnb-info";
+  }
 
+  .HoP {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "HoP-title"
+      "HoP-pic"
+      "HoP-info";
+  }
 
-}
+  .CafeDem {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "CafeDem-title"
+      "CafeDem-pic"
+      "CafeDem-info";
+  }
 
-.HoP {
-  grid-template-columns: 1fr;
-  grid-template-areas:
-  "HoP-title"
-  "HoP-pic"
-  "HoP-info";
-}
+  .ICA {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "ICA-title"
+      "ICA-pic"
+      "ICA-info";
+  }
 
-.CafeDem{
-  grid-template-columns: 1fr;
-  grid-template-areas:
-  "CafeDem-title"
-  "CafeDem-pic"
-  "CafeDem-info";
+  .LoweArtMuseum {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "Lowe-title"
+      "Lowe-pic"
+      "Lowe-info";
+  }
 
-}
+  .CoralGablesMuseum {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "CGMuseum-title"
+      "CGMuseum-pic"
+      "CGMuseum-info";
+  }
 
-.ICA{
-  grid-template-columns: 1fr;
-  grid-template-areas:
-  "ICA-title"
-  "ICA-pic"
-  "ICA-info";
-
-
-}
-
-.LoweArtMuseum{
-  grid-template-columns: 1fr;
-  grid-template-areas:
-  "Lowe-title"
-  "Lowe-pic"
-  "Lowe-info";
-
-}
-
-.CoralGablesMuseum{
-  grid-template-columns: 1fr;
-  grid-template-areas:
-  "CGMuseum-title"
-  "CGMuseum-pic"
-  "CGMuseum-info";
-}
-
-.PAM {
-  grid-template-columns: 1fr;
-  grid-template-areas:
-  "PAM-title"
-  "PAM-pic"
-  "PAM-info";
-}
-
+  .PAM {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "PAM-title"
+      "PAM-pic"
+      "PAM-info";
+  }
 
   .HammockPark {
     grid-template-columns: 1fr;
     grid-template-areas:
-    "HammockPark-title"
-    "HammockPark-pic"
-    "HammockPark-info";
+      "HammockPark-title"
+      "HammockPark-pic"
+      "HammockPark-info";
   }
 
-  .BotanicGarden{
+  .BotanicGarden {
     grid-template-columns: 1fr;
     grid-template-areas:
-    "BotanicGarden-title"
-    "botanicgarden-pic"
-    "botanicgarden-info";
+      "BotanicGarden-title"
+      "botanicgarden-pic"
+      "botanicgarden-info";
   }
 
-  .PeacockPark{
+  .PeacockPark {
     grid-template-columns: 1fr;
     grid-template-areas:
-    "PeacockPark-title"
-    "peacockpark-pic"
-    "peacockpark-pic";
-
+      "PeacockPark-title"
+      "peacockpark-pic"
+      "peacockpark-pic";
   }
-
-
-}
-
-
-
 }

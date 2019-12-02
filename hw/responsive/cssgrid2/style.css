@@ -333,6 +333,10 @@ h2 {
   grid-area: HammockPark-info;
 }
 
+.VenetianPool-info {
+  grid-area: VenetianPool-info;
+}
+
 .HammockPark-title {
   grid-area: HammockPark-title;
 }
@@ -368,7 +372,7 @@ h2 {
   grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
   grid-template-areas:
     "PeacockPark-title ."
-    "peacockpark-pic peacockpark-pic";
+    "PeacockPark-pic PeacockPark-info";
 }
 .PeacockPark-info {
   grid-area: PeacockPark-info;
@@ -389,7 +393,7 @@ h2 {
   grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
   grid-template-areas:
     "VenetianPool-title ."
-    "pool-pic VenetianPool-info";
+    "VenetianPool-pic VenetianPool-info";
 }
 
 .HammockPark-pic {
@@ -413,15 +417,15 @@ h2 {
   width: 220px;
   border: 1px solid #000080;
   border-radius: 4px;
-  grid-area: peacockpark-pic;
+  grid-area: PeacockPark-pic;
 }
 
-.pool-pic {
+.VenetianPool-pic {
   height: 170px;
   width: 220px;
   border: 1px solid #000080;
   border-radius: 4px;
-  grid-area: pool-pic;
+  grid-area: VenetianPool-pic;
 }
 
 /* put this in mobile.css */
