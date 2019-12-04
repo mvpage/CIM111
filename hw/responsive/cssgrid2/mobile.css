@@ -1,6 +1,26 @@
 @media only screen and (max-width: 767px) {
+  .Cafes {
+    grid-template-columns: 1fr 100px 1fr;
+    grid-gap: 50px;
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d";
+    align-items: start;
+    margin-bottom: 2rem;
+  }
+
+  .Museums {
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    grid-template-areas: "e" "f" "g" "h";
+    align-items: start;
+  }
+
   .ParksnBeaches {
     grid-template-columns: 1fr;
+    grid-gap: 50px;
     grid-template-areas:
       "i"
       "j"

@@ -312,11 +312,11 @@ h2 {
 
 .ParksnBeaches {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 100px 1fr;
   grid-gap: 10px;
   grid-template-areas:
-    "i j"
-    "k l";
+    "i . j"
+    "k . l";
   align-items: start;
 }
 .HammockPark {
