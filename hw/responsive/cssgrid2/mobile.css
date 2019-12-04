@@ -1,9 +1,19 @@
 @media only screen and (max-width: 767px) {
+  .ParksnBeaches {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "i"
+      "j"
+      "k"
+      "l";
+    align-items: start;
+  }
+
   .VenetianPool {
     grid-template-columns: 1fr;
     grid-template-areas:
       "VenetianPool-title"
-      "pool-pic"
+      "VenetianPool-pic"
       "VenetianPool-info";
   }
 
@@ -91,7 +101,7 @@
     grid-template-columns: 1fr;
     grid-template-areas:
       "PeacockPark-title"
-      "peacockpark-pic"
+      "PeacockPark-pic"
       "PeacockPark-info";
   }
 }
