@@ -1,83 +1,75 @@
-
-  #email {
-  text-decoration: none;}
+#email {
+  text-decoration: none;
+}
 
 a {
   text-decoration: none;
-
 }
 
-
-a:visited{
-  text-decoration:none;
-  color:#B22222;
-
+a:visited {
+  text-decoration: none;
+  color: #b22222;
 }
 
-a:hover{
-  text-decoration:none;
-  color:#A9A9A9;
-
+a:hover {
+  text-decoration: none;
+  color: #a9a9a9;
 }
 
-
-html, body {
-
-  background-color:#f4f1fa;
+html,
+body {
+  background-color: #f4f1fa;
   color: black;
-  font-family: 'Noto Serif TC', serif; }
-
-  section#image_address {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 302px;
-
+  font-family: "Noto Serif TC", serif;
 }
 
+section#image_address {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 302px;
+}
 
+#name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  font-size: 50px;
+  color: #000080;
+}
 
-
-  #name {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom:10px;
-    font-size: 50px;
-    color: #000080;
-
-  }
-
-  #img{
-    border: 1px solid #000080;
-    border-radius: 4px;
-  }
+#img {
+  border: 1px solid #000080;
+  border-radius: 4px;
+}
 
 #About_Me {
   font-weight: lighter;
 }
 
-#Education{
+#Education {
   font-weight: normal;
 }
 
-#Leadership{
+#Leadership {
   font-weight: normal;
 }
 
-#Hobbies{
+#Hobbies {
   font-weight: normal;
 }
 
-  section#contact_social {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-  }
-   .cursor {
-   cursor: crosshair; }
+section#contact_social {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+.cursor {
+  cursor: crosshair;
+}
 
-   .contact_social{
-     border: 1px solid #000080;
-   }
+.contact_social {
+  border: 1px solid #000080;
+}

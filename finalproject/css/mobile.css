@@ -1,1 +1,33 @@
-@media only screen and (max-width: 767px);
+@media only screen and (max-width: 767px) {
+  body {
+    /* background-color: blue; */
+  }
+  ul.nav {
+    padding-top: 20px;
+    padding-left: 200px;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  #nav {
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #nav {
+    padding-left: 300px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #nav {
+    padding-left: 600px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #nav {
+    padding-left: 1000px;
+  }
+}

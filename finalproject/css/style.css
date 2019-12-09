@@ -1,10 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500,600,700");
-@import url("https://fonts.googleapis.com/css?family=Marck+Script");
-
-/*------------------------------------------------------------------
-    IMPORT FILES
--------------------------------------------------------------------*/
-
 @import url(animate.css);
 @import url(font-awesome.min.css);
 @import url(magnific-popup.css);
@@ -15,36 +8,10 @@
 #myphoto {
   border-radius: 6px;
 }
-body {
-  color: #666666;
-  font-size: 15px;
-  font-family: "Barlow", sans-serif;
-  line-height: 1.80857;
-}
 
-a {
-  color: #1f1f1f;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  letter-spacing: 0;
-  font-weight: normal;
-  position: relative;
-  padding: 0 0 10px 0;
-  font-weight: normal;
-  /* line-height: 120% !important; */
-  color: #1f1f1f;
-  margin: 0;
+ul.nav {
+  padding-top: 20px;
+  padding-left: 900px;
 }
 
 h1 {
@@ -79,7 +46,6 @@ h4 a,
 h5 a,
 h6 a {
   color: #212121;
-  /* text-decoration: none !important; */
   opacity: 1;
 }
 
@@ -98,38 +64,6 @@ a {
   outline: none;
 }
 
-a,
-.btn {
-  /* text-decoration: none !important;
-  outline: none !important; */
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.btn-custom {
-  margin-top: 20px;
-  /* background-color: transparent !important; */
-  border: 2px solid #ddd;
-  padding: 12px 40px;
-  font-size: 16px;
-}
-
-.lead {
-  font-size: 18px;
-  line-height: 30px;
-  color: #767676;
-  margin: 0;
-  padding: 0;
-}
-
-blockquote {
-  margin: 20px 0 20px;
-  padding: 30px;
-}
-
 ul,
 li,
 ol {
@@ -144,6 +78,22 @@ button:focus {
 .form-control::-moz-placeholder {
   color: #2a2a2a;
   opacity: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+li {
+  float: left;
+}
+
+li a:hover {
+  background-color: pink;
 }
 
 /*------------------------------------------------------------------
@@ -182,43 +132,6 @@ button:focus {
   animation-name: fadeInDown;
   background: #fff;
   z-index: 20;
-}
-
-.navbar-toggler {
-  border: 1px solid #61d2b4;
-  border-radius: 0;
-  margin: 16px 15px;
-  padding: 10px 10px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-.navbar-toggler span {
-  background: #61d2b4;
-  display: block;
-  width: 25px;
-  height: 2px;
-  margin: 0 auto;
-  margin-top: 0px;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  border-radius: 1px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-.navbar-toggler span + span {
-  margin-top: 5px;
-}
-
-.navbar-toggler:hover {
-  border: 1px solid #dd666c;
-}
-
-.navbar-toggler:hover span {
-  background: #dd666c;
 }
 
 /*------------------------------------------------------------------
@@ -396,4 +309,13 @@ button:focus {
   text-align: center;
   margin: 0px;
   color: #ffffff;
+}
+
+.grid-container {
+  width: 630px;
+  margin: 0 auto;
+}
+
+#nav {
+  padding-top: 20px;
 }
