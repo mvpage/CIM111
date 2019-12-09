@@ -137,6 +137,26 @@ li a:hover {
 /*------------------------------------------------------------------
     About
 -------------------------------------------------------------------*/
+#mypic {
+  grid-area: a;
+  /* display: grid; */
+  /* grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+}
+
+#hi {
+  grid-area: b;
+  padding-top: 160px;
+  /* display: grid; */
+}
+
+#story {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 100px;
+  grid-template-areas: "a b";
+  align-items: start;
+  margin-bottom: 2rem;
+}
 
 .about-box {
   padding: 70px 0px;

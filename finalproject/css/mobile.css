@@ -15,6 +15,11 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
+  #story {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "a" "b";
+  }
 }
 
 @media only screen and (min-width: 300px) {
