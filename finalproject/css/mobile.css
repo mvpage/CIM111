@@ -1,22 +1,25 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   body {
     /* background-color: blue; */
+  }
+  #nav {
+    padding-left: 300px;
   }
   ul.nav {
     padding-top: 20px;
     padding-left: 200px;
+  }
+
+  #grid1,
+  #grid2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
 
 @media only screen and (min-width: 300px) {
   #nav {
     padding-left: 10px;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  #nav {
-    padding-left: 300px;
   }
 }
 

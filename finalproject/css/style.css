@@ -231,6 +231,42 @@ li a:hover {
   color: #ffffff;
 }
 
+.whoiambox {
+  grid-area: a;
+  display: grid;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+}
+.whatidobox {
+  grid-area: b;
+  display: grid;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+}
+
+.whoiam {
+  grid-area: c;
+  display: grid;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+}
+.whatido {
+  grid-area: d;
+  display: grid;
+  grid-template-columns: 225px 200px; /* repeat(2, 1fr);*/
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+#grid1,
+#grid2 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 100px;
+  /* grid-template-areas:
+    "a" . "b"
+    "c" . "d"; */
+  align-items: start;
+  margin-bottom: 2rem;
+}
 /*------------------------------------------------------------------
     Gallery
 -------------------------------------------------------------------*/
@@ -318,4 +354,10 @@ li a:hover {
 
 #nav {
   padding-top: 20px;
+}
+
+#content {
+  width: 700px;
+  margin: 20px auto;
+  min-height: 800px;
 }
