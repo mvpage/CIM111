@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152940701-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'UA-152940701-1');
+
+	</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title> Megan's Portfolio </title>
+
+
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+	<style>
+		.grid-container {
+			display: grid;
+			grid-template-columns: auto auto auto;
+			padding: 10px;
+		}
+
+		.grid-item {
+			padding: 20px;
+			font-size: 30px;
+			text-align: center;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #fff;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-family: Geneva, Arial, Helvetica, sans-serif;
+		}
+
+		li a:hover {
+			background-color: pink;
+		}
+
+		.active {
+			background-color: pink;
+		}
+
+	</style>
+
+</head>
+
+<body style="margin:0px 0px 0px 0px">
+
+
+
+	<ul style="padding-top:20px;padding-left:900px">
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="about.html">ABOUT</a></li>
+		<li><a class="active" href="project.html">PROJECT</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+	</ul>
+
+	<hr>
+
+
+	<!-- Start Gallery -->
+	<div id="gallery" class="gallery-box">
+
+		<div class="title-box">
+			<h2>Projects</h2>
+		</div>
+
+		<div class="grid-container">
+			<div class="grid-item">
+				<ul class="popup-gallery clearfix" style="padding-left:20px">
+					<li style="width:100%">
+						<a href="https://xd.adobe.com/view/4fdd56b7-a92f-4e8c-5e3b-a802c2515dbe-39ec/?fullscreen">
+							<img class="img-fluid" src="images/img1.jpg" alt="single image" style="height:700px">
+							<span class="overlay"> GeoMuse </span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="grid-item">
+				<ul class="popup-gallery clearfix">
+					<li style="width:100%">
+						<a href="https://xd.adobe.com/view/2e06d0d5-886e-4a8a-500c-04815cf5a150-5837/?fullscreen">
+							<img class="img-fluid" src="images/img2.jpg" alt="single image" style="height:700px">
+							<span class="overlay">Events @ the U</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="grid-item">
+				<ul class="popup-gallery clearfix">
+					<li style="width:100%">
+						<a href="https://xd.adobe.com/view/90324c93-7280-4cb0-662d-97beae369b89-e603/?fullscreen">
+							<img class="img-fluid" src="images/img3.jpg" alt="single image" style="height:700px">
+							<span class="overlay">Chronogram</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+
+	<footer class="footer-box">
+	</footer>
+
+
+	<script src="js/jquery.min.js"></script>
+
+</body>
+
+</html>

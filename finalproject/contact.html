@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152940701-1"></script>
@@ -18,15 +17,23 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 
-	<title> Megan's Portfolio </title>
-
+	<title>Megan's Portfolio</title>
 
 	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-
 
 	<style>
+		.grid-container {
+			display: grid;
+			grid-template-columns: auto auto auto;
+			padding: 10px;
+		}
+
+		.grid-item {
+			padding: 20px;
+			font-size: 30px;
+			text-align: center;
+		}
+
 		ul {
 			list-style-type: none;
 			margin: 0;
@@ -58,52 +65,39 @@
 
 	</style>
 
+
 </head>
 
 <body style="margin:0px 0px 0px 0px">
 
 
 	<ul style="padding-top:20px;padding-left:900px">
-		<li><a class="active" href="index.html">HOME</a></li>
+		<li><a href="index.html">HOME</a></li>
 		<li><a href="about.html">ABOUT</a></li>
-		<li><a href="project.html">PROJECTS</a></li>
-		<li><a href="contact.html">CONTACT</a></li>
+		<li><a href="project.html">PROJECT</a></li>
+		<li><a class="active" href="contact.html">CONTACT</a></li>
 	</ul>
 
 	<hr>
 
 
-	<div id="story" class="main-timeline-box">
-		<div class="container">
+	<div id="gallery" class="gallery-box">
 
-			<div class="row timeline-element separline" style="padding-left:250px">
+		<div class="title-box">
+			<h2>Let's Start a Project!</h2>
+		</div>
 
-				<div class="time-line-date-content" style="padding-top:120px;padding-left:120px;">
-					<section>
-						<img id="myphoto" src="images/about-img-02.jpg" style="width:400px;height:300px" />
-					</section>
-				</div>
+		<div class="grid-container" style="padding-left:350px">
 
-				<div class="col-lg-8 col-md-6 col-sm-12" style="padding-top:150px">
-					<h2 style="font-family: 'Playfair Display', serif;">Hey there, I'm Megan. </h2>
-
-
-					<p style="font-family: 'Baskervville', serif;"> Scientist. Creator. Designer </p>
-				</div>
-
-			</div>
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf0qfzfHMKsYxmE8B7jR7jGKyzrgYDNW7ck1EkdeVWo4Wq8uQ/viewform?embedded=true" width="640" height="786" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 		</div>
+
 	</div>
-
-
-
 
 
 	<footer class="footer-box">
 	</footer>
-
-
 
 
 </body>
